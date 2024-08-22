@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#videoContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+video {
+    width: 45%;
+    border: 2px solid black;
+}
+
+#chatContainer {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+#messages {
+    height: 300px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+#messageInput {
+    width: 80%;
+    padding: 10px;
+}
+
+#sendMessage {
+    padding: 10px;
+}
